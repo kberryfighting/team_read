@@ -453,7 +453,7 @@ public class Pttrainer {
 
 ## 폴리글랏 퍼시스턴스
 
-부분적으로 my-sql 사용할 수 있도록 deployment.yaml파일에 관련 내용 추가
+DB는 H2를 사용하지만, 부분적으로 my-sql 사용할 수 있도록 deployment.yaml파일에 관련 내용 추가
 
 ```
 pom.yml : mysql driver 설정
@@ -462,6 +462,14 @@ pom.yml : mysql driver 설정
                         <artifactId>mysql-connector-java</artifactId>
                         <scope>runtime</scope>
                 </dependency>
+
+pom.yml : h2db 의존성 설정
+		            <dependency>
+                  <groupId>com.h2database</groupId>
+                  <artifactId>h2</artifactId>
+			            <scope>runtime</scope>
+		            </dependency>
+
 ```
 
 
