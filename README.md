@@ -144,7 +144,7 @@
 
 ### 바운디드 컨텍스트로 묶기
 
-![image](https://user-images.githubusercontent.com/19251601/91854989-81cef280-ec9f-11ea-8bd5-50602fced150.png)
+![image](https://user-images.githubusercontent.com/19251601/91932119-445e7980-ed20-11ea-8ba2-2656343de339.png)
 
     - 도메인 서열 분리 : PT수강신청 > 고객관리 = 트레이너 로 정의
 
